@@ -1,0 +1,43 @@
+﻿<MyVocabulary xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Vocabulary.Klasses">
+  <Vocabulary xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>мама</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>mother</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>тато</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>father</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>гуляти</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>walk</d2p1:string>
+        <d2p1:string>stroll</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>екзамен</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>examination</d2p1:string>
+        <d2p1:string>exam</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>іскра</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>spark</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+    <d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+      <d2p1:Key>іграшка</d2p1:Key>
+      <d2p1:Value>
+        <d2p1:string>toy</d2p1:string>
+      </d2p1:Value>
+    </d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
+  </Vocabulary>
+  <name>Українсько-Англiйський</name>
+</MyVocabulary>

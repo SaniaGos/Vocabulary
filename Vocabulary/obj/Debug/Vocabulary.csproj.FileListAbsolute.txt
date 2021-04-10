@@ -1,0 +1,7 @@
+C:\Users\SaniaGos\source\repos\Vocabulary\Vocabulary\bin\Debug\Vocabulary.exe.config
+C:\Users\SaniaGos\source\repos\Vocabulary\Vocabulary\bin\Debug\Vocabulary.exe
+C:\Users\SaniaGos\source\repos\Vocabulary\Vocabulary\bin\Debug\Vocabulary.pdb
+C:\Users\SaniaGos\source\repos\Vocabulary\Vocabulary\obj\Debug\Vocabulary.csprojAssemblyReference.cache
+C:\Users\SaniaGos\source\repos\Vocabulary\Vocabulary\obj\Debug\Vocabulary.csproj.CoreCompileInputs.cache
+C:\Users\SaniaGos\source\repos\Vocabulary\Vocabulary\obj\Debug\Vocabulary.exe
+C:\Users\SaniaGos\source\repos\Vocabulary\Vocabulary\obj\Debug\Vocabulary.pdb
