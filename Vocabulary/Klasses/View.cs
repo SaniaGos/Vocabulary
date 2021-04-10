@@ -8,7 +8,7 @@ namespace Vocabulary.Klasses
 {
     class View
     {
-        static int row = 1;
+        private static int row = 1;
         private static void CleanMenu()
         {
             Console.SetCursorPosition(40, 0);
@@ -66,7 +66,7 @@ namespace Vocabulary.Klasses
             }
             Write();
         }
-        public static void ClearMainMenu()
+        public static void ClearSmallMenu()
         {
             Console.SetCursorPosition(40, 2);
             for (int i = 0; i < 6; i++)

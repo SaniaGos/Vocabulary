@@ -71,7 +71,7 @@ namespace Vocabulary.Klasses
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
                         vocabulary.AddWord(word, translateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.D2:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -80,7 +80,7 @@ namespace Vocabulary.Klasses
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
                         vocabulary.AddTranslate(word, translateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.D3:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -88,17 +88,17 @@ namespace Vocabulary.Klasses
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
-                        Console.SetCursorPosition(40, 3);
+                        Console.SetCursorPosition(40, 4);
                         Console.Write("Введiть новий переклад: "); newTranslateWord = Console.ReadLine();
                         vocabulary.ChangeTranslate(word, translateWord, newTranslateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.D4:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
                         Console.SetCursorPosition(40, 2);
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         vocabulary.DelWord(word);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.D5:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -107,21 +107,21 @@ namespace Vocabulary.Klasses
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
                         vocabulary.DelTranslate(word, translateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.D6:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
                         Console.SetCursorPosition(40, 2);
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         vocabulary.FindContainsWord(word);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.D7:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
                         Console.SetCursorPosition(40, 2);
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         vocabulary.FindWord(word);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.D8:
                         break;
@@ -134,7 +134,7 @@ namespace Vocabulary.Klasses
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
                         vocabulary.AddWord(word, translateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.NumPad2:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -143,7 +143,7 @@ namespace Vocabulary.Klasses
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
                         vocabulary.AddTranslate(word, translateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.NumPad3:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -151,17 +151,17 @@ namespace Vocabulary.Klasses
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
-                        Console.SetCursorPosition(40, 3);
+                        Console.SetCursorPosition(40, 4);
                         Console.Write("Введiть новий переклад: "); newTranslateWord = Console.ReadLine();
                         vocabulary.ChangeTranslate(word, translateWord, newTranslateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.NumPad4:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
                         Console.SetCursorPosition(40, 2);
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         vocabulary.DelWord(word);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.NumPad5:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -170,21 +170,21 @@ namespace Vocabulary.Klasses
                         Console.SetCursorPosition(40, 3);
                         Console.Write("Введiть переклад: "); translateWord = Console.ReadLine();
                         vocabulary.DelTranslate(word, translateWord);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.NumPad6:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
                         Console.SetCursorPosition(40, 2);
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         vocabulary.FindContainsWord(word);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.NumPad7:
                         Console.ForegroundColor = ConsoleColor.DarkYellow;
                         Console.SetCursorPosition(40, 2);
                         Console.Write("Введiть слово: "); word = Console.ReadLine();
                         vocabulary.FindWord(word);
-                        View.ClearMainMenu();
+                        View.ClearSmallMenu();
                         break;
                     case ConsoleKey.NumPad8:
                         break;
