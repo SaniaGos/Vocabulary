@@ -11,9 +11,9 @@ namespace Vocabulary
     {
         static void Main(string[] args)
         {
-            Menu.OvnerMenu();
+            Menu.Start();
             
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }
